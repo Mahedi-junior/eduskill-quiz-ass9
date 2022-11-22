@@ -1,0 +1,13 @@
+.ca {
+  border: 2px solid rgb(113, 218, 32);
+  border-radius: 10px;
+}
+.quiz img {
+  height: 260px;
+  object-fit: cover;
+}
+.success {
+  background: rgb(113, 218, 32);
+  padding: 7px 30px;
+  font-weight: 600;
+}
