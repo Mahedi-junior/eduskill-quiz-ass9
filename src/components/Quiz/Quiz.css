@@ -6,8 +6,3 @@
   height: 260px;
   object-fit: cover;
 }
-.success {
-  background: rgb(113, 218, 32);
-  padding: 7px 30px;
-  font-weight: 600;
-}

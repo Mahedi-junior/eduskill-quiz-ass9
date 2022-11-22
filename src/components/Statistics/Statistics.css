@@ -1,0 +1,14 @@
+.rechart-container {
+  margin-top: 20px;
+}
+.rechart-container h2 {
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.rechart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}

@@ -7,17 +7,17 @@ const Quiz = ({ quiz }) => {
   const { id, logo, name, total } = quiz;
   return (
     <div className="quiz">
-      <Col className="ca">
+      <Col className="ca mt-4 ">
         <Card>
           <Card.Img className="bg-light" variant="top" src={logo} />
           <Card.Body>
             <Card.Title>{name}</Card.Title>
             <Card.Text>
               <small> Questions: {total} </small> <br />
-              <Link to={`/quiz/${id}`}>
-                <Button className="mt-2 success" variant="success">
+              <Link className="flex" to={`/quiz/${id}`}>
+                <Button className="mt-2 px-3 " variant="success">
                   Start Quiz
-                </Button>{" "}
+                </Button>
               </Link>
             </Card.Text>
           </Card.Body>
