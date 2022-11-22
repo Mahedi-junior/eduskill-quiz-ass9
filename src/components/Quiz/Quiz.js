@@ -15,7 +15,7 @@ const Quiz = ({ quiz }) => {
             <Card.Text>
               <small> Questions: {total} </small> <br />
               <Link className="flex" to={`/quiz/${id}`}>
-                <Button className="mt-2 px-3 " variant="success">
+                <Button className="mt-2 px-3" variant="success">
                   Start Quiz
                 </Button>
               </Link>
