@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
       <Container>
-        <h3 className="my-5">Test your front end technology quiz.</h3>
+        <h3 className="my-5 fs-1">Test your frontend development quiz.</h3>
         <Row xs={1} md={2} lg={4} className="4">
           {quizList.map((quiz) => (
             <Quiz key={quiz.id} quiz={quiz}></Quiz>
