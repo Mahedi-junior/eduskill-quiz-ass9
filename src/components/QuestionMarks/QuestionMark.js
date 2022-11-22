@@ -1,9 +1,17 @@
 import React from "react";
+import "./QuestionMarks.css";
 
-const QuestionMark = () => {
+const QuestionMark = ({ wrightAns, wrongAns }) => {
   return (
-    <div>
-      <h2>Question Mark</h2>
+    <div className="question-marks">
+      <div className="py-5">
+        <p className="text-success">
+          <strong>Wright Ans: {wrightAns}</strong>
+        </p>
+        <p className="text-danger">
+          <strong>Wrong Ans: {wrongAns}</strong>
+        </p>
+      </div>
     </div>
   );
 };

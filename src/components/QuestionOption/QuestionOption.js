@@ -1,10 +1,29 @@
 import React from "react";
+import { Col } from "react-bootstrap";
 
-const QuestionOption = () => {
+const QuestionOption = ({ option, index, handleAnswer }) => {
+  //   console.log(option);
   return (
-    <div>
-      <h2>Question Options</h2>
-    </div>
+    <Col>
+      <div className="form-check">
+        <input
+          style={{ cursor: "pointer" }}
+          onClick={() => handleAnswer(option)}
+          className="form-check-input"
+          type="radio"
+          name="flexRadioDefault"
+          id={option}
+          value={option}
+        />
+        <label
+          style={{ cursor: "pointer" }}
+          className="form-check-label"
+          htmlFor={option}
+        >
+          {option}
+        </label>
+      </div>
+    </Col>
   );
 };
 

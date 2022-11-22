@@ -9,7 +9,7 @@ const QuizDetails = () => {
   const { name, questions } = quizDetails?.data;
   const [wrightAns, setWrightAns] = useState(0);
   const [wrongAns, setWrongAns] = useState(0);
-  //   console.log(name, questions);
+  console.log(name, questions);
 
   return (
     <div className="container quiz-detail">
